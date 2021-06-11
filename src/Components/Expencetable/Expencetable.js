@@ -9,6 +9,8 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Expencedialog from './Expencedialog/Expencedialog';
 import Expenceaction from './Expenceaction/Expenceaction';
+import { Button } from '@material-ui/core';
+import AddExpence from './AddExpence';
 
 const TAX_RATE = 0.07;
 
@@ -49,8 +51,13 @@ const invoiceSubtotal = subtotal(rows);
 const invoiceTaxes = TAX_RATE * invoiceSubtotal;
 const invoiceTotal = invoiceTaxes + invoiceSubtotal;
 
+
+
+
 export default function Expencetable() {
   const classes = useStyles();
+
+ 
 
   return (
     <TableContainer component={Paper}>
@@ -58,12 +65,12 @@ export default function Expencetable() {
         <TableHead>
           <TableRow>
             <TableCell align="left" colSpan={3}>
-              Details
+             <button type='button' className='btn btn-primary'>Details</button> 
             </TableCell>
             <TableCell align="left" colSpan={3}>
-              Details
+            <button type='button' className='btn btn-primary'>Details</button> 
             </TableCell>
-            <TableCell align="left" colSpan={3}>Price</TableCell>
+            <TableCell align="left" colSpan={3}><button type='button' className='btn btn-primary'>Price</button></TableCell>
           </TableRow>
           <TableRow>
             <TableCell>Receiver</TableCell>
@@ -99,6 +106,7 @@ export default function Expencetable() {
             <TableCell>Tax</TableCell>
             <TableCell align="right">{`${(TAX_RATE * 100).toFixed(0)} %`}</TableCell>
             <TableCell align="right">{ccyFormat(invoiceTaxes)}</TableCell>
+            <TableCell rowSpan={3} /> <TableCell rowSpan={3} /><TableCell rowSpan={3} align="center" >  <AddExpence  /> </TableCell>
           </TableRow>
           <TableRow>
             <TableCell colSpan={2}>Total</TableCell>
