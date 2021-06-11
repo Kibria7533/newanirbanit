@@ -6,7 +6,7 @@ import { NavLink, withRouter } from "react-router-dom";
 import "./Header.css";
 import { Typography } from "@material-ui/core";
 import techData from "../../Utility/techData";
-
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
 const Header = (props) => {
   const pathName = props?.location?.pathname;
@@ -25,58 +25,25 @@ const Header = (props) => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="header_left">
-            {/* Home Link */}
+            {/* newsroom */}
             <Nav.Link
               as={NavLink}
-              to="/"
+              to="/newsroom"
               className={
-                pathName === "/" ? "header_link_active" : "header_link"
+                pathName === "/newsroom" ? "header_link_active" : "header_link"
               }
-              
             >
-              Home
+              Newsroom
             </Nav.Link>
-            {/* work */}
+            {/* Service*/}
             <Nav.Link
               as={NavLink}
-              to="/work"
+              to="/service"
               className={
-                pathName === "/work" ? "header_link_active" : "header_link"
-              }
-              
-            >
-              Work
-            </Nav.Link>
-            {/* about Link */}
-            <Nav.Link
-              as={NavLink}
-              to="/about"
-              className={
-                pathName === "/about" ? "header_link_active" : "header_link"
+                pathName === "/service" ? "header_link_active" : "header_link"
               }
             >
-              About
-            </Nav.Link>
-           
-            {/* sing up Link */}
-            <Nav.Link
-              as={NavLink}
-              to="/singup"
-              className={
-                pathName === "/singup" ? "header_link_active" : "header_link"
-              }
-            >
-              Sing Up
-            </Nav.Link>
-            {/* sing up Link */}
-            <Nav.Link
-              as={NavLink}
-              to="/login"
-              className={
-                pathName === "/login" ? "header_link_active" : "header_link"
-              }
-            >
-              Log In
+              Service
             </Nav.Link>
             {/* Career Link */}
             <Nav.Link
@@ -88,12 +55,49 @@ const Header = (props) => {
             >
               Career
             </Nav.Link>
+            {/* about Link */}
+            <Nav.Link
+              as={NavLink}
+              to="/about"
+              className={
+                pathName === "/about" ? "header_link_active" : "header_link"
+              }
+            >
+              About
+            </Nav.Link>
+
             {/* dropdown menu */}
             <NavDropdown
-              title="Profile Icon"
+              title={<AccountCircleIcon className="header_icon_color" />}
               id="basic-nav-dropdown"
               className="header_link_active header_link"
             >
+              <NavDropdown.Item>
+                {/* sing up Link */}
+                <Nav.Link
+                  as={NavLink}
+                  to="/singup"
+                  className={
+                    pathName === "/singup"
+                      ? "header_link_active"
+                      : "header_link"
+                  }
+                >
+                  Sing Up
+                </Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                {/* login Link */}
+                <Nav.Link
+                  as={NavLink}
+                  to="/login"
+                  className={
+                    pathName === "/login" ? "header_link_active" : "header_link"
+                  }
+                >
+                  Log In
+                </Nav.Link>
+              </NavDropdown.Item>
               <NavDropdown.Item>
                 <Nav.Link
                   as={NavLink}
@@ -120,7 +124,7 @@ const Header = (props) => {
                   Check Expance
                 </Nav.Link>
               </NavDropdown.Item>
-              <NavDropdown.Item >
+              <NavDropdown.Item>
                 <Nav.Link
                   as={NavLink}
                   to="/services"
@@ -133,7 +137,7 @@ const Header = (props) => {
                   Check E/A
                 </Nav.Link>
               </NavDropdown.Item>
-              <NavDropdown.Item >
+              <NavDropdown.Item>
                 <Nav.Link
                   as={NavLink}
                   to="/services"
@@ -146,7 +150,7 @@ const Header = (props) => {
                   Notice
                 </Nav.Link>
               </NavDropdown.Item>
-              <NavDropdown.Item >
+              <NavDropdown.Item>
                 <Nav.Link
                   as={NavLink}
                   to="/services"
@@ -170,7 +174,6 @@ const Header = (props) => {
             >
               Contact
             </Nav.Link>
-
           </Nav>
           {/* <div className="header_right">
             {Object.keys(techData.socials).map((key) => (

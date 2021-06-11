@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../Pages/Home/Home";
 import Profileicon from "../Pages/Profileicon/Profileicon";
 import About from "../Pages/About/About";
-import Work from "../Pages/Work/Work";
+import Service from "../Pages/Service/Service";
 import Login from "../Pages/Login/Login";
 import Singup from "../Pages/Singup/Singup";
 import Contact from "../Pages/Contact/Contact";
@@ -14,6 +14,7 @@ import Income from "../Pages/Income/Income";
 import Expence from "../Pages/Expence/Expence";
 import Footer from "../Components/Footer/Footer";
 import Career from "../Pages/Career/Career";
+import Newsroom from "../Pages/Newsroom/Newsroom";
 import '../App.css';
 
 
@@ -37,6 +38,9 @@ const App = () => {
                   <Route path="/income">
                     <Income />
                   </Route>
+                  <Route path="/newsroom">
+                    <Newsroom />
+                  </Route>
                   <Route path="/expence">
                     <Expence />
                   </Route>
@@ -49,8 +53,8 @@ const App = () => {
                   <Route path="/contact">
                   <Contact />
                   </Route>
-                  <Route path="/work">
-                    <Work />
+                  <Route path="/Service">
+                    <Service />
                   </Route>
                   <Route path="/login">
                     <Login/>

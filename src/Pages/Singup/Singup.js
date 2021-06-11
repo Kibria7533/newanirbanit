@@ -1,13 +1,12 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Input from "@material-ui/core/Input";
 import InputLabel from "@material-ui/core/InputLabel";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import FormControl from "@material-ui/core/FormControl";
 import TextField from "@material-ui/core/TextField";
-import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
-import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
+
 import Button from "../../Components/Button/Button";
 import "./Singup.css";
 import clsx from "clsx";
