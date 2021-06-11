@@ -1,0 +1,29 @@
+.service_content {
+  
+}
+.service_content .service_item {
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 50%);
+  border-radius: 6px !important;
+  padding: 20px 30px !important;
+}
+.service_content .service_item .service_image img{
+  width: 150px;
+  height: 150px;
+  text-align: center !important;
+  display: block !important;
+  margin: 0px auto !important;
+}
+.service_content .service_item .service_title{
+  text-align: center;
+  line-height: 30px !important;
+  font-weight: 500;
+  font-size: 1.5rem !important;
+  padding: 10px 0px !important;
+}
+.service_content .service_item .service_details {
+    text-align: justify;
+    line-height: 20px !important;
+    font-size: .9rem !important;
+}

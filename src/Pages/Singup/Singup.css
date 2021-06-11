@@ -1,0 +1,14 @@
+.login_page {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  background: linear-gradient(
+    rgba(24,144,255,.1)50%,
+    rgba(94, 37, 199, 0.1) 100%
+  ) !important;
+}
+.login_left_image img {
+  width: 100% !important;
+  height: 90% !important;
+}
+  

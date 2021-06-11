@@ -1,0 +1,51 @@
+.teams_card {
+}
+.teams_card .teams_name {
+  font-family: "poppins" !important;
+  font-size: 1rem !important;
+  color: var(--font-color);
+  font-weight: 700 !important;
+}
+.teams_card .teams_position {
+  font-family: "poppins" !important;
+  font-size: 0.9rem !important;
+  color: var(--font-color);
+  font-weight: 600 !important;
+  padding: 0px 0px 3px 0px !important;
+}
+.teams_card .teams_short_details {
+  font-family: "poppins" !important;
+  color: #4f5964 !important;
+  font-size: 0.8rem !important;
+  padding-bottom: 5px !important;
+  font-weight: 500 !important;
+}
+.teams_card .teams_social {
+  display: flex !important;
+  text-decoration: none !important;
+  padding: 5px 0px !important;
+}
+.teams_card .teams_social_icon {
+  color: var(--font-color) !important;
+  background: transparent !important;
+  padding: 0px 2px !important;
+
+}
+.teams_card .teams_link {
+  color: var(--font-color) !important;
+  text-decoration: none !important;
+  margin: 0px auto;
+  font-weight: 600 !important;
+
+}
+
+.MuiPaper-root
+  .MuiDialog-paper
+  .MuiDialog-paperScrollPaper
+  .MuiDialog-paperWidthSm
+  .MuiPaper-elevation24
+  .MuiPaper-rounded
+  img {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}

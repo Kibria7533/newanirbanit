@@ -1,0 +1,77 @@
+.footer {
+  background-color: #102a51 !important;
+  color: #fff;
+  font-family: "poppins" !important;
+}
+.footer .footer_fast_part {
+  display: flex !important;
+}
+.footer .footer_fast_part .footer_fast_part_image {
+  width: 60px !important;
+  height: 60px !important;
+}
+.footer .footer_fast_part .footer_fast_part_social {
+  display: flex !important;
+  padding: 10px 0px !important;
+}
+.footer_social > a > .MuiSvgIcon-root {
+  font-size: 1.6rem !important;
+  margin: 5px 2px -4px 2px !important;
+  color: hsla(0, 0%, 100%, 0.5) !important;
+}
+
+.footer .footer_fast_part .footer_fast_part_image {
+  width: 60px !important;
+  height: 60px !important;
+}
+.footer_fast_part_menu {
+  text-align: left !important;
+}
+.footer .footer_fast_part .footer_fast_part_menu .footer_fast_part_menu_header {
+  text-decoration: none !important;
+  color: #ffff;
+  font-size: 1.2rem !important;
+  font-family: "poppins" !important;
+  font-weight: 600 !important;
+  margin-left: 33px !important;
+  padding-bottom: 15px !important;
+}
+
+.footer_fast_part_menu .footer_fast_part_menu_list a {
+  text-decoration: none !important;
+  color: #ffff;
+  font-size: 0.9rem !important;
+  font-family: "poppins" !important;
+}
+.footer_fast_part_menu .footer_fast_part_menu_list a:hover {
+  text-decoration: underline !important;
+}
+.footer_fast_part_menu .footer_fast_part_menu_list li {
+  list-style: none !important;
+}
+.footer_fast_part_menu
+  .footer_fast_part_menu_list
+  .footer_fast_part_menu_subscribe {
+  text-align: center !important;
+  font-family: "poppins" !important;
+}
+.footer_fast_part_menu
+  .footer_fast_part_menu_list
+  .footer_fast_part_menu_subscribe
+  > .MuiTypography-h6 {
+  font-family: "poppins" !important;
+  font-size: 0.9rem !important;
+}
+.footer .footer_last_part {
+  text-align: center !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  align-items: center !important;
+}
+.footer .footer_last_part .footer_last_part_link {
+  text-decoration: none !important;
+  color: #ffff;
+  font-size: 0.9rem !important;
+  font-family: "poppins" !important;
+}

@@ -1,0 +1,48 @@
+.home_btn {
+    background-color: transparent !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-radius: 3px !important;
+    padding: 1px 12px !important;
+    line-height: 35px !important;
+    min-width: 100px !important;
+    border: 2px solid #d6b956 !important;
+    margin-top: 5px !important;
+  }
+  .home_btn:hover{
+    background-color: #F4EBCF !important;
+    color: #000 !important;
+  }
+  .home_btn .home_btn_icon_container {
+    color: #d6b956 !important;
+    background: #fff !important;
+    border-radius: 50px !important;
+    height: 27px !important;
+    width: 27px !important ;
+    line-height: 29px !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .home_btn .home_btn_icon_container > .MuiSvgIcon-root{
+      font-size: 16px !important;
+  }
+  .home_btn .home_btn_text {
+    font-size: 14px !important;
+    text-transform: none !important;
+    text-align: center;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #d6b956 !important;
+    font-weight: 600!important;
+  }
+  .home_btn:hover .home_btn_text{
+    color: #d6b956 !important;
+    font-weight: 600!important;
+    
+  }
+  .btn_icon{
+    color: #d6b956 !important;
+  }

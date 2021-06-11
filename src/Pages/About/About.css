@@ -1,0 +1,97 @@
+.my_about_accordion {
+  min-height: 100vh !important;
+}
+.about_option_section {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+.about_right {
+  width: 100% !important;
+  height: 90% !important;
+  /* animation: bounceTop_01 3s ease infinite; */
+}
+.about_option {
+  display: inline-flex !important;
+  min-height: 160px !important;
+}
+.about_option .about_option_icon {
+}
+.about_option .about_option_icon > .MuiSvgIcon-root {
+  font-size: 4.5rem !important;
+  background-color: #ffffff !important;
+  color: #38b9ae !important;
+  padding: 10px !important;
+  border-radius: 50% !important;
+}
+.about_option_title {
+  padding-left: 20px !important;
+}
+.about_option
+  .about_option_title
+  .about_option_title_header
+  .about_option_title_h {
+  font-family: "poppins" !important;
+  font-weight: 700;
+  color: var(--font-color);
+  font-size: 1.8rem !important;
+}
+.about_option
+  .about_option_title
+  .about_option_title_header
+  .about_option_title_p {
+  font-family: "poppins" !important;
+  font-weight: 500;
+  color: var(--font-color);
+  font-size: 0.9rem !important;
+  padding-top: 10px !important;
+  padding-right: 30px !important;
+  padding-bottom: 20px !important;
+}
+.about_accordion {
+  display: flex !important;
+  justify-content: center !important;
+  min-height: 65vh !important;
+
+  /* margin: 0px auto !important; */
+}
+.achievement{
+background-color: #123b77 !important; 
+padding: 50px 0px !important;
+}
+.achievement .achievement_conteiner{
+  
+}
+.achievement .achievement_conteiner .achievement_items{
+  font-family: "poppins" !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  
+}
+.achievement .achievement_conteiner .achievement_items .achievement_items_shadow{
+  box-shadow: 1px 2px 3px 1px rgb(0 0 0 / 30%) !important;
+  /* padding: 20px 30px !important; */
+  height: 200px ;
+  width: 300px ;
+  padding: 10px 10px 10px 10px !important;
+}
+.achievement .achievement_conteiner .achievement_items .achievement_items_shadow .achievement_items_icon{
+ font-family: "Poppins" !important;
+ font-size: 4rem !important;
+ color: #fff;
+}
+.achievement .achievement_conteiner .achievement_items .achievement_items_shadow .achievement_items_title{
+  font-family: "Poppins" !important;
+ font-size: 3rem !important;
+ color: #fff;
+ font-weight: 600 !important;
+}
+.achievement .achievement_conteiner .achievement_items .achievement_items_shadow .achievement_items_details{
+  font-family: "Poppins" !important;
+ font-size: 1.5rem !important;
+ color: #fff;
+}
+.achievement_items:hover .achievement_items_icon{
+  transform: scale(1.5);
+}

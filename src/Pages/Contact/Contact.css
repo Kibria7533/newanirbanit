@@ -1,0 +1,31 @@
+* contact start */
+  .contactInfo_item {
+    color: var(--font-color) !important;
+    line-height: 34px !important;
+    padding: 3px 0px !important;
+    font-family: "poppins" !important;
+  }
+  .contactInfo_item_center {
+    margin-top: 35px;
+  }
+  .contactInfo_item_span {
+    font-weight: 500;
+  }
+  .contactInfo_socialsContainer {
+    margin-top: 20px;
+  }
+  .contactInfo_item .contactInfo_item_span  > .MuiSvgIcon-root{
+    font-size: 2rem !important;
+    margin-right: 10px;
+    color: var(--font-color) !important;
+  }
+  .contactInfo_social > a > .MuiSvgIcon-root {
+    font-size: 32px !important;
+    margin-right: 10px;
+    margin-top: 3px !important;
+    color: var(--font-color) !important;
+  }
+  .contactInfo_socialsContainer .contactInfo_social .MuiSvgIcon-root{
+    font-size: 25px !important;
+  
+  }
