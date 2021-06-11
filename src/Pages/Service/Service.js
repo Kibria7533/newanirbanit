@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
 import techData from "../../Utility/techData";
-import "./Work.css";
+import "./Service.css";
 import SideLink from "../sidelink/SideLink";
 
 const Work = () => {

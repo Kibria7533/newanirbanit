@@ -9,17 +9,27 @@ import Teams from "../../Components/Teams/Teams";
 import DraftsOutlinedIcon from "@material-ui/icons/DraftsOutlined";
 import PhoneInTalkOutlinedIcon from "@material-ui/icons/PhoneInTalkOutlined";
 import PinDropOutlinedIcon from "@material-ui/icons/PinDropOutlined";
-import SideLink from "../sidelink/SideLink";
-
-
+import SideLink from "../../Components/sidelink/SideLink";
+import Homecarousel from "../../Components/Homecarousel/Homecarousel";
 
 const Techit = () => {
   return (
     <>
+      {/* side link */}
+      <Grid container>
+        <Grid item xs={12}>
+          <SideLink />
+        </Grid>
+      </Grid>
+      {/* Home carousel */}
+      <Grid container className="">
+        <Grid item xs={12}>
+          <Homecarousel />
+        </Grid>
+      </Grid>
       {/* our short team*/}
       <Grid container className="team-section white_bg pt_45 pb_45">
-      <SideLink />
-        <Grid item xs={12} md={10}  className="pb_30">
+        <Grid item xs={12} md={10} className="pb_30">
           <Typography variant={"h5"} className="extra_section_title ">
             Something New and Perfect
           </Typography>
@@ -42,7 +52,8 @@ const Techit = () => {
                   Lorem ipsum dolor sit amet.
                 </Typography>
                 <Typography className="lets_start_description" variant="body2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio sit et quibusdam nostrum dignissimos harum.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+                  sit et quibusdam nostrum dignissimos harum.
                 </Typography>
                 <div className="lets_start_btn">
                   <Chatbtn text={"start Chat Now"} />
@@ -55,11 +66,10 @@ const Techit = () => {
       {/* contact*/}
       <Grid container className="section pt_45 pb_45    contact_color">
         {/* contact form */}
-        <Grid container spacing={10} >
+        <Grid container spacing={10}>
           <Grid item xs={12} lg={7}>
             <Grid container>
               <Grid item className="section_title mb_30">
-                
                 <h6 className="extra_section_title">Contact Form</h6>
               </Grid>
               <Grid item xs={12}>
@@ -93,10 +103,9 @@ const Techit = () => {
             </Grid>
           </Grid>
           {/* contact information*/}
-          <Grid item xs={12} lg={5} className='section_content'>
-            <Grid container >
+          <Grid item xs={12} lg={5} className="section_content">
+            <Grid container>
               <Grid item className="section_title mb_30">
-                
                 <h6 className="extra_section_title">Contact Information</h6>
               </Grid>
               <Grid item xs={12}>

@@ -1,0 +1,30 @@
+.sideber {
+  background-color: #0f294e;
+  position: fixed;
+  width: 97px;
+  height: 42vh;
+  top: 245px;
+  left: 0;
+  justify-content: center !important;
+  align-items: center !important;
+  z-index: 1000;
+  border-top: 2px #fc9104 solid;
+  border-bottom: 2px #fc9104 solid;
+}
+
+.sideber > .list__items {
+  position: absolute;
+  display: flex !important;
+  flex-direction: column;
+  top: 50px;
+  left: -40px;
+}
+
+ul,
+li,
+a {
+  list-style: none !important;
+  text-decoration: none !important;
+  color: #fff;
+  margin: 5px;
+}

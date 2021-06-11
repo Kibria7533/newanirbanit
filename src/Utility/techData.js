@@ -162,5 +162,64 @@ const techData = {
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae quasi esse at in consequuntur, ad non impedit! Officiis, impedit?z"
     },
   ],
+  memburs:[
+    {
+      image:"Images/member/1.jpg",
+      name:"lorem ipsum and",
+      details:"Lorem ipsum dolor sit amet."
+    },
+    {
+      image:"Images/member/1.jpg",
+      name:"lorem ipsum and",
+      details:"Lorem ipsum dolor sit amet."
+    },
+    {
+      image:"Images/member/1.jpg",
+      name:"lorem ipsum and",
+      details:"Lorem ipsum dolor sit amet."
+    },
+    {
+      image:"Images/member/1.jpg",
+      name:"lorem ipsum and",
+      details:"Lorem ipsum dolor sit amet."
+    },
+    {
+      image:"Images/member/1.jpg",
+      name:"lorem ipsum and",
+      details:"Lorem ipsum dolor sit amet."
+    },
+    {
+      image:"Images/member/1.jpg",
+      name:"lorem ipsum and",
+      details:"Lorem ipsum dolor sit amet."
+    },
+  ],
+  homecarousels:[
+    {
+      image:"Images/homecarousel/6.jpg",
+      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      details:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi praesentium nobis ut corporis quae libero amet aperiam quod officiis!",
+    },
+    {
+      image:"Images/homecarousel/2.jpg",
+      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      details:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi praesentium nobis ut corporis quae libero amet aperiam quod officiis!",
+    },
+    {
+      image:"Images/homecarousel/3.jpg",
+      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      details:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi praesentium nobis ut corporis quae libero amet aperiam quod officiis!",
+    },
+    {
+      image:"Images/homecarousel/4.jpg",
+      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      details:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi praesentium nobis ut corporis quae libero amet aperiam quod officiis!",
+    },
+    {
+      image:"Images/homecarousel/5.jpg",
+      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      details:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi praesentium nobis ut corporis quae libero amet aperiam quod officiis!",
+    },
+  ],
 };
 export default techData;
